@@ -1,0 +1,7 @@
+the_ROM_image:
+{
+	[bootloader] /home/masudalab/ZYBO/zynq_project/ubuntu_zynq/images/linux/zynq_fsbl.elf
+	/home/masudalab/ZYBO/zynq_project/ubuntu_zynq/images/linux/system.bit
+	/home/masudalab/ZYBO/zynq_project/ubuntu_zynq/images/linux/u-boot.elf
+	[load=0x00100000] /home/masudalab/ZYBO/zynq_project/ubuntu_zynq/images/linux/system.dtb
+}
